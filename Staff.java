@@ -54,7 +54,7 @@ public class Staff {
             System.out.println("1. View Orders");
             System.out.println("2. Process Order");
             System.out.println("3. Complete Order");
-            //System.out.println("4. Exit");
+            System.out.println("4. Log out");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
@@ -69,9 +69,10 @@ public class Staff {
                 case 3:
                     completeOrder();
                     break;
-                /*case 4:
-                    exit = true;
-                    break;*/
+                case 4:
+                	System.out.print("Logging out");
+                    System.exit(0);
+                    break;
                 default:
                     System.out.println("Invalid choice.");
             }

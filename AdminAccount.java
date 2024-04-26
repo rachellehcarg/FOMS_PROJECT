@@ -21,7 +21,7 @@ public class AdminAccount {
         boolean running = true;
         while (running){
         	try {
-            System.out.println("Enter\n1 to view or add or delete a staff\n2 to change staff branch or role or age\n3 to view or add or delete branches\n4 to view or add or delete Payment Method\n5 assign a staff to manager\n0 to terminate:");
+            System.out.println("Enter\n1 to view or add or delete a staff\n2 to change staff branch or role or age\n3 to view or add or delete branches\n4 to view or add or delete Payment Method\n5 assign a staff to manager\n0 Logout");
             String choice = scanner.nextLine();
 
             switch (choice) {
@@ -148,8 +148,8 @@ public class AdminAccount {
                     break;
                     
                 case "0":
-                    System.out.println("Terminating program.");
-                    
+                    System.out.println("Logging out");
+                    System.exit(0);
                     running = false;
                     return;
                 default:
