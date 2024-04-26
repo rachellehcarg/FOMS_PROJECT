@@ -1,0 +1,10 @@
+Jewel;mcspicy;1.00;burger;added
+JP;CAJUN FISH;20.00;burger;nothing much to say
+JP;chicken nugget;6.90;side;onfire
+JP;fries;-9.00;side;null
+JE;COLE SLAW;2.70;side;expensive
+JE;3PC set meal;10.40;set meal;nothing much to say
+JE;mcchicken;-32.00;burger;burger with fries
+NTU;FRIES;3.20;side;description here
+NTU;3PC set meal;9.90;set meal;nothing much to say
+NTU;chicken nugget;6.60;side;nothing much to say

@@ -1,0 +1,81 @@
+
+
+Order ID: 000001
+Branch: JE
+Items:
+- 3PC set meal - $10.4
+Total Price: $20.80
+Order Time: 2024-04-25 12:35:18
+Order Type: Dine-in
+Order Status: Completed
+Completion Time: 2024-04-25 12:53:16
+
+Branch: Jewel
+Items:
+- mcspicy - $1.0
+Total Price: $1.00
+Order Time: 2024-04-25 12:37:21
+Order Type: Takeaway
+Order Status: Completed
+Completion Time: 2024-04-25 12:53:16
+
+Branch: JE
+Items:
+- 3PC set meal - $10.4
+Total Price: $20.80
+Order Time: 2024-04-25 12:51:07
+Order Type: Dine-in
+Order Status: Completed
+Completion Time: 2024-04-25 12:53:16
+
+Order ID: 000002
+Branch: JP
+Items:
+- CAJUN FISH - $20.0
+Total Price: $20.00
+Order Time: 2024-04-26 15:31:16
+Order Type: Takeaway
+Order Status: Ordered
+Completion Time: Incomplete
+
+Order ID: 000003
+Branch: JP
+Items:
+- CAJUN FISH - $20.0
+Total Price: $20.00
+Order Time: 2024-04-26 15:43:41
+Order Type: Takeaway
+Order Status: Ordered
+Completion Time: Incomplete
+
+Order ID: 000004
+Branch: JP
+Items:
+- CAJUN FISH - $20.0
+Total Price: $20.00
+Order Time: 2024-04-26 15:46:54
+Order Type: Takeaway
+Order Status: Ordered
+Completion Time: Incomplete
+
+Order ID: 000005
+Branch: JP
+Items:
+- CAJUN FISH - $20.0
+Total Price: $20.00
+Order Time: 2024-04-26 15:48:21
+Order Type: Takeaway
+Order Status: Ordered
+Completion Time: Incomplete
+
+Order ID: 000006
+Branch: JP
+Items:
+- CAJUN FISH - $20.0
+- CAJUN FISH - $20.0
+Total Price: $40.00
+Order Time: 2024-04-26 15:49:17
+Order Type: Takeaway
+Order Status: Ordered
+Completion Time: Incomplete
+

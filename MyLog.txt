@@ -1,0 +1,26 @@
+3.26 Version 1.3 Seperate into AdminAccount for calling functions in other files, StaffAccount contains the functions done by Staff, staffAccounts.txt contains staff database
+			functions: add staff, delete staff, view staff
+3.27 Version 2.0 Add Admin to database, now admin can view staff, filter by 4 catagories of staff, change info of staff
+3.27 Version 2.1 Error handling for addstaff
+4.2 Version 3.0 Split staff out, split boolean methods like isValidAge, isValidRole into validation class
+5.4 Version 4.0 Add quota restrictions before adding staff or manager to the branch, view/add/delete branch done, in branch txt
+May 4 Version 4.1 add staff to current branch, or NA, or fail to add staff
+May 4 Version 4.2 separate AdminCall to put into login page
+May 12 Version 5.0 remove password setting, add default password, refine how the database look like
+May 12 Version 5.1 Debug: Fix the problem of overwriting the whole database when new staff is added
+May 12 Version 5.2 Debug: Fix the problem of duplicating database when new staff is added
+May 13 Version 5.3 Merge action 1,2,3 to 1 BUG UNFIXED: when change role from staff to manager, the manager quota check is not implemented, but it is implemented when adding a new manager
+May 13 Version 6.1 Add payment method, can dynamically search for current methods, add and delete, creating a java file at the same time, Switch 4 to try out
+May 13 Version 7.1 Add Login Page, AdminAccount embedded as AdminAccount.run() , FastfoodApp is now the new console page
+May 13 Version 7.2 Add location of branch, admin can add location when adding new branch, and view location when view branch
+May 13 Version 7.3 Add in password for staff, manager, admin login, Debug: unable to add staff. 
+				   Now the only Admin is PigH,00000000
+May 19 Version 8.0 Staff manager and admin will be asked to change password if their password is set as default
+					only Admin is PigH, abcd1234, other people log in refer to staffAccounts.txt for password matching
+May 21 Version 9.0 Add Customer side, add cart, add Summary, add Item, add Menu. Customer can perform all functions, some logic error are there
+					For example empty order can be made. Logic sequence need to change. Consumer first choose 
+May 21 Version 10.0 Add RegularStaff, can view AllOrders, process and complete order
+May 21 Version 11.0 Add Manager, can extend from staff and edit Menu
+May 24 Version 12.0 Debug: Price is now displayed in 2 dp, customer can see all branches during  login
+May 24 Version 12.1 When admin view staff by branch, branch list will display, 
+					password is hashed in database but if u see a hashed one then its abcd1234

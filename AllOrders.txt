@@ -1,0 +1,7 @@
+000002;Jewel;2024-04-25 12:37:21;Ordered;Takeaway
+000003;JE;2024-04-25 12:51:07;Ordered;Dine-in
+000002;JP;2024-04-26 15:31:16;Ordered;Takeaway
+000003;JP;2024-04-26 15:43:41;Ordered;Takeaway
+000004;JP;2024-04-26 15:46:54;Ordered;Takeaway
+000005;JP;2024-04-26 15:48:21;Ordered;Takeaway
+000006;JP;2024-04-26 15:49:17;Ordered;Takeaway

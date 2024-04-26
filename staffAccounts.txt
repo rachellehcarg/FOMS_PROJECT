@@ -1,0 +1,19 @@
+asdiBranch, StaffName, StaffID, R, G, Age, Password
+Bugis, qwe rty, qwer, M, F, 55, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JE, KK ii, KKi, M, F, 44, 00000000
+JP, my test, myt, M, M, 22, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+MBS, Yu Fengyuan, YuF, M, F, 34, 00000000
+NTU, Allen Lv, AllenL, S, M, 44, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+NTU, Zhao Qixian, ZhaoQ, S, M, 23, 00000000
+BUGIS, Adam, Adam, S, M, 22, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+BUGIS, oo pp, oop, M, F, 44, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+Bugis, Wo ho, Woh, S, F, 34, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JP, Haha haha, Hahah, S, M, 33, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JP, Jiang Jinjin, JiangJ, M, F, 55, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JP, myy test, myyt, M, M, 44, 221b37fcdb52d0f7c39bbd0be211db0e1c00ca5fbecd5788780463026c6b964b
+NTU, bobo, bobo, S, F, 21, 00000000
+NTU, Xiaoxi Guan, XIAOXIG, S, F, 17, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JE, asd ik, asdi, S, F, 22, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+NTU, john, john, S, M, 42, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+JP, i dont, id, M, F, 18, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae
+null, Pig Head, PigH, A, F, 56, e9cee71ab932fde863338d08be4de9dfe39ea049bdafb342ce659ec5450b69ae

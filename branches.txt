@@ -1,0 +1,6 @@
+Jewel,Level 2
+JP,near mcd
+Bugis,Level 3
+JE,GEM
+NTU,NS
+MBS,B1
