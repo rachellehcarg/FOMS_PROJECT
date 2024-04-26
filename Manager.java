@@ -23,6 +23,7 @@ public class Manager extends Staff {
             System.out.println("3. Complete Order");
             System.out.println("4. Edit Menu");
             System.out.println("5. View Staff in My Branch");
+            System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             
             // Check if there's more input available
@@ -49,6 +50,9 @@ public class Manager extends Staff {
                             case 5:
                                 viewStaff();
                                 break;
+                            case 0:
+                                System.out.println("Exiting......");
+                                System.exit(0);
                             default:
                                 System.out.println("Invalid choice.");
                         }
