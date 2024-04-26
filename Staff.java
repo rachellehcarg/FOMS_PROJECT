@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.InputMismatchException;
 import java.io.*;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -50,36 +51,42 @@ public class Staff {
         Scanner scanner = new Scanner(System.in);
         boolean exit = false;
         while (!exit) {
-            System.out.println("Staff Menu for Branch " + branch + ":");
-            System.out.println("1. View Orders");
-            System.out.println("2. Process Order");
-            System.out.println("3. Complete Order");
-            System.out.println("4. Log out");
-            System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
-            switch (choice) {
-                case 1:
-                    viewOrders(getBranch());
-                    break;
+            try {
+                System.out.println("Staff Menu for Branch " + branch + ":");
+                System.out.println("1. View Orders");
+                System.out.println("2. Process Order");
+                System.out.println("3. Complete Order");
+                System.out.println("4. Log out");
+                System.out.print("Enter your choice: ");
+                int choice = scanner.nextInt();
 
-                case 2:
-                    processOrder();
-                    break;
-                case 3:
-                    completeOrder();
-                    break;
-                case 4:
-                	System.out.print("Logging out");
-                    System.exit(0);
-                    break;
-                default:
-                    System.out.println("Invalid choice.");
+                scanner.nextLine(); // Consume newline
+                switch (choice) {
+                    case 1:
+                        viewOrders(branch);
+                        break;
+
+                    case 2:
+                        processOrder();
+                        break;
+                    case 3:
+                        completeOrder();
+                        break;
+                    case 4:
+                        System.out.println("Logging out...");
+                        exit = true;
+                        break;
+                    default:
+                        System.out.println("Invalid choice.");
+                }
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine(); // Consume the invalid input
             }
         }
         scanner.close();
     }
-
+    
     public void viewOrders() {
         try (BufferedReader reader = new BufferedReader(new FileReader("AllOrders.txt"))) {
             String line;
