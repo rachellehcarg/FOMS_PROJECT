@@ -177,7 +177,7 @@ public class Menu {
             System.out.print("Price: ");
             double price;
             while (true) {
-                System.out.print("Enter the price: ");
+                //System.out.print("Enter the price: ");
                 price = scanner.nextDouble();
                 scanner.nextLine(); 
                 
@@ -252,6 +252,11 @@ public class Menu {
                         case 1:
                             System.out.print("Enter new price: ");
                             double newPrice = scanner.nextDouble();
+                            while(newPrice<=0) {
+                            	System.out.print("Enter new price: ");
+                            	newPrice = scanner.nextDouble();
+                            }
+                            
                             item.setPrice(newPrice);
                             break;
                         case 2:
