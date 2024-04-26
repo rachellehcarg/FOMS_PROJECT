@@ -250,11 +250,26 @@ public class Menu {
 
                     switch (choice) {
                         case 1:
-                            System.out.print("Enter new price: ");
-                            double newPrice = scanner.nextDouble();
-                            while(newPrice<=0) {
-                            	System.out.print("Enter new price: ");
-                            	newPrice = scanner.nextDouble();
+ 
+                            double newPrice;
+                    
+                            while (true) {
+                                try {
+                                    System.out.print("Enter new price: ");
+                                    newPrice = scanner.nextDouble();
+                    
+                                    if (newPrice <= 0) {
+                                        System.out.println("Price must be a positive number.");
+                                        continue;
+                                    }
+                                    
+                                    // If the input is valid, break out of the loop
+                                    break;
+                                } catch (InputMismatchException e) {
+                                    // If the input is not a valid double, catch the exception and prompt again
+                                    System.out.println("Invalid input. Please enter a valid number.");
+                                    scanner.nextLine(); // Consume the invalid input
+                                }
                             }
                             
                             item.setPrice(newPrice);
